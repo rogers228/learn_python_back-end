@@ -1,0 +1,17 @@
+https://israynotarray.com/other/20200723/3866554212/
+
+解決瀏覽器 https 無法連線問題
+
+ERR_SSL_PROTOCOL_ERROR
+
+
+https://dev.to/rajshirolkar/fastapi-over-https-for-development-on-windows-2p7d
+
+
+1.先安裝 Chocolatey
+2.安裝 mkcert
+    使用 Chocolatey  執行  choco install mkcert
+
+3.使用mkcert  安裝憑證
+    mkcert -install
+    mkcert localhost 127.0.0.1 ::1
