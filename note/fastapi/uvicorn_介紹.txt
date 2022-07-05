@@ -1,0 +1,5 @@
+https://ithelp.ithome.com.tw/m/articles/10270523
+uvicorn是一個輕量級高效的web伺服器框架
+
+因為fastapi 不能直接執行
+用來掛載fastapi

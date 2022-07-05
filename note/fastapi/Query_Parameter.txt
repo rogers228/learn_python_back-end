@@ -1,0 +1,28 @@
+https://www.minglunwu.com/notes/2022/fast_api_note_3.html
+Query Parameter
+用來接受URL所附加的參數，與 Path Parameter 最大的差別在於沒有預先定義位置
+透過 GET 請求傳送多個參數時，常會附加在URL上，例如:
+
+
+
+網址
+http://xxx.example.com/target?param1=a&param2=b
+?問候後方的一串字
+以&區隔
+a=k&b=y
+
+路由裡不用寫 parameter
+function裡寫 parameter 指定型別
+@app.get("/query_param_str") 
+async def query_param_str(pID: str): # 轉換成字串
+    return {"user": pID}
+
+function裡寫 parameter 指定型別 帶預設值
+@app.get("/default_param") 
+async def query_param_str(param_a: str, param_b: str="example"): # 轉換成字串
+    return {"param_a": param_a, "param_b": param_b}
+
+function裡寫 parameter 指定型別 選擇性引數
+from typing import Optional
+def optional_example(user_name:str, gender: Optional[str]):
+    return {"user_name": user_name, "gender": gender}
