@@ -1,0 +1,5 @@
+https://fastapi.tiangolo.com/zh/advanced/response-headers/
+
+from fastapi import FastAPI, Response
+
+response.headers["X-Cat-Dog"] = "alone in the world"

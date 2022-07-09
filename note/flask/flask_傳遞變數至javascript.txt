@@ -1,0 +1,8 @@
+https://stackoverflow.com/questions/11178426/how-can-i-pass-data-from-flask-to-javascript-in-a-template
+
+
+<head>
+  <script>
+    var someJavaScriptVar = '{{ geocode[1] }}';
+  </script>
+</head>

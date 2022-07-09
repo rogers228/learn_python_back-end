@@ -1,0 +1,21 @@
+https://www.maxlist.xyz/2020/05/08/flask-cors/
+https://cloud.tencent.com/developer/article/1398254
+
+Cross-Origin Resource Sharing 的規範，簡稱 CORS（跨來源資源共享)
+
+瀏覽器會執行同源政策 (Same-origin policy)
+同源是指，以瀏覽器基礎讀取的 html css js 為主要來源A，
+
+瀏覽時，以js做後續請求時的來源B，是否相同。
+
+同源 3 條件
+1.相同協定
+2.host 主機位置
+3.port 埠號
+三項中有一個不相同，則視為非同源
+
+
+
+
+如果要允許跨域請求 Server必須在Response的Header 加上
+Access-Control-Allow-Origin: *  星號就代表萬用字元

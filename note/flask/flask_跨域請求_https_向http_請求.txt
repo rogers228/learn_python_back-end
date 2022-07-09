@@ -1,0 +1,13 @@
+https://medium.com/@timetraveller_x/setting-up-ssl-on-iis-with-python-flask-8d21847a3594
+
+https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+
+https://medium.com/@charming_rust_oyster_221/flask-%E9%85%8D%E7%BD%AE-https-%E7%B6%B2%E7%AB%99-ssl-%E5%AE%89%E5%85%A8%E8%AA%8D%E8%AD%89-36dfeb609fa8
+
+https://www.educba.com/flask-https/
+安裝 pip install pyopenssl
+
+
+https://stackoverflow.com/questions/22690685/how-to-use-ssl-with-flask
+https://pypi.org/project/Flask-SSLify/
+
