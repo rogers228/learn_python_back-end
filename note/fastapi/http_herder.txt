@@ -1,1 +1,15 @@
 https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Headers
+
+查看response的header
+print(response.headers)
+
+相關屬性說明
+
+set-cookie    由後端設定cookie的資料  瀏覽器會自動儲存cookie
+Secure        限用ssl
+HttpOnly      限制js讀取
+Max-Age       壽命時間(秒)
+Path
+SameSite
+Domain        限制發送位置
+Path          限制路徑
