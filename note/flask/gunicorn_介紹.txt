@@ -1,0 +1,11 @@
+https://www.minglunwu.com/notes/2021/flask_plus_wsgi.html
+
+gunicorn是一個WSGI Server
+簡單來說它就是 可以承接 flask 的 專門生產用的server
+
+安裝
+pip install gunicorn
+
+windows下可以使用Waitress 來取代 gunicorn
+Waitress
+https://docs.pylonsproject.org/projects/waitress/en/latest/

@@ -13,5 +13,13 @@ https://dev.to/rajshirolkar/fastapi-over-https-for-development-on-windows-2p7d
     使用 Chocolatey  執行  choco install mkcert
 
 3.使用mkcert  安裝憑證
+    開啟cmd
+    cd /d 路徑
     mkcert -install
     mkcert localhost 127.0.0.1 ::1
+    建立完成將在資料夾產生2個檔案
+    localhost+2.pem      改名為  cert.pem
+    localhost+2-key.pem  改名為  key.pem
+    供後續使用
+
+

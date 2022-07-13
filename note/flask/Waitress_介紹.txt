@@ -1,0 +1,21 @@
+https://docs.pylonsproject.org/projects/waitress/en/latest/
+https://iter01.com/654115.html
+
+Waitress是一個WSGI Server
+Waitress是一個web Server (類似iis)
+簡單來說它就是 可以承接 flask 的 專門生產用的server
+
+pip install waitress
+
+
+
+cmd
+waitress-serve --listen=*:8239 myapp.wsgi:application
+
+waitress-serve        命令
+--listen=host:port    監聽
+--listen=*:8239       監聽所有host port8239
+
+
+所有命令
+https://docs.pylonsproject.org/projects/waitress/en/stable/runner.html
