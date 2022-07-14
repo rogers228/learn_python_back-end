@@ -2,7 +2,7 @@ https://docs.pylonsproject.org/projects/waitress/en/latest/
 https://iter01.com/654115.html
 
 Waitress是一個WSGI Server
-Waitress是一個web Server (類似iis)
+
 簡單來說它就是 可以承接 flask 的 專門生產用的server
 
 pip install waitress

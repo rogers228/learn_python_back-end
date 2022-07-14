@@ -1,0 +1,21 @@
+架構
+worker_processes  1;
+events {
+    worker_connections  1024;
+}
+http{
+    server {
+        location{     # location 區塊
+            ...
+        }
+    }
+
+    server {
+    }
+
+    server {
+    }
+}
+
+
+以上代表nginx底下有3台 App Server
