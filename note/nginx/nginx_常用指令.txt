@@ -16,3 +16,6 @@ nginx -s stop
 
 重新讀取 載入
 nginx -s reload
+
+檢查配置
+nginx -t -c conf\nginx.conf

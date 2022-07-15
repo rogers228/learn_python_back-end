@@ -15,16 +15,14 @@ C:\Users\user\nginx-1.23.0\conf\nginx.conf
         worker_connections  1024; # 最大連接數量
     }
     http{
-        server {
+        server {  # app server of wsgi server 不同server會使用不同的port號
           listen  80;     # IPv4 port號
           listen [::]80;  # IPv6 port號
-          server_name  example.com  www.example.com;  #網域名稱
+          server_name  example.com  www.example.com;  #主機網域 or 主機IP
 
             location /{
-                proxy_pass  http://127.0.0.1:8001;    # 轉址 轉發
+                proxy_pass  http://127.0.0.1:8001;    # 轉址 轉發 內部ip及port
             }   
-
-
         }
 
         server {
