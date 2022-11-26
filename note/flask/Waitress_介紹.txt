@@ -8,7 +8,6 @@ Waitress是一個WSGI Server
 pip install waitress
 
 
-
 cmd
 waitress-serve --listen=*:8239 myapp.wsgi:application
 
