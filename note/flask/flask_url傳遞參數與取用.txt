@@ -1,0 +1,18 @@
+https://medium.com/seaniap/python-web-flask-get-post%E5%82%B3%E9%80%81%E8%B3%87%E6%96%99-2826aeeb0e28
+
+
+
+url 網址傳遞參數   不適合傳遞敏感資料
+
+http://127.0.0.1:5000/?name=MyName&email=myname@abc.com
+?為網址與參數連接符
+&為參數間連接符
+key為key
+vlaue為value
+網址?key=value&
+
+api取得參數
+需引用 request
+
+from flask import request 
+request.args.get('name') # 依key取得參數值

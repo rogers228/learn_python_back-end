@@ -1,0 +1,9 @@
+https://hackmd.io/@shaoeChen/HJiZtEngG/https%3A%2F%2Fhackmd.io%2F%40shaoeChen%2FBkL3oACzU
+
+from flask import (Blueprint, jsonify)
+
+bp = Blueprint('backstage', __name__, url_prefix='/backstage')
+
+@bp.route('/api1')
+def test_api1():
+    return jsonify(message='Hello, API')
