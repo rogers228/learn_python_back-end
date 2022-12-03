@@ -1,0 +1,13 @@
+
+main.py
+
+app = Flask(__name__)
+app.config.from_pyfile('config.py')  # 從檔案設定config
+
+
+
+在藍圖中引用config
+
+
+from flask import (Blueprint, current_app)
+user = current_app.config["USER"]
