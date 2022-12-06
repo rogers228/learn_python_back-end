@@ -1,0 +1,10 @@
+flask function
+
+    temp = <div>......</div>
+    return render_template("backstage_form.html", temp=temp)
+
+
+backstage_form.html
+傳入html樣板  需使用過濾器safe
+
+{{ temp|safe }}
