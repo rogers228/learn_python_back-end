@@ -1,0 +1,31 @@
+jinja樣板資料標準格式
+為list內部每列為dic
+[{},{},{}]
+
+# py
+def get_sider2(self):
+	return [
+		{
+			'tourid':1,
+			'name_tw':'液壓機械',
+			'name_en':"Hydraulic Mechanical",
+			'name_zh':"液压机械"
+		},
+		{
+			'tourid':2,
+			'name_tw':'液壓站',
+			'name_en':"Power unit",
+			'name_zh':"液压站"
+		},
+		{
+			'tourid':7,
+			'name_tw':'工具機選配',
+			'name_en':"Machine tool equipment",
+			'name_zh':"工具机选配"
+		}
+	]
+
+# jinja
+{% for tour in sider %}
+  <li>{{ tour.name_tw|e }}</li>
+{% endfor %}
