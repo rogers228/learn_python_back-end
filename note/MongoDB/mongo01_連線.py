@@ -32,5 +32,5 @@ def test4():
         print(doc)
 
 if __name__ == '__main__':
-    test1()
+    test4()
     print('ok')
