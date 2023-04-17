@@ -11,3 +11,7 @@ MongoDB 的查詢語法是使用 MongoDB Query Language (MQL)。MQL 是一種類
 使用MongoDB至少有幾點好處
 1. 可以像檔案一樣直覺，卻不必特地管理資料夾，更方便的查詢MQL
 2. 擴充簡單
+
+
+# 注意
+他預設不是windows服務，需要自己使用cmd開啟服務
