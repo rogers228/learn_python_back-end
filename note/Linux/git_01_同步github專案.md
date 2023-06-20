@@ -91,4 +91,11 @@ git pull   將倉庫拉下來(同步)
 輸入私鑰密碼
 ```
 
+## 5. 配置密鑰(測試無效)
+以上的步驟在每次 git pull 時，需要輸入密碼
+如果不想每次輸入密碼，則需要設定配置
+```
+git config --global core.sshCommand "ssh -i ~/.ssh/id_ecdsa"
+```
+
 完成同步，可以使用 cPanel 查看檔案是否更新。
