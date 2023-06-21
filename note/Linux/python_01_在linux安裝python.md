@@ -93,3 +93,5 @@ python3 -m pip --version  檢查pip版本
 python3 -m pip list 檢查以安裝套件
 python3 -m pip install --upgrade pip 更新
 ```
+
+
