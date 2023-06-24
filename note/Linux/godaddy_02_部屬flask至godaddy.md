@@ -24,8 +24,15 @@ https://www.youtube.com/watch?v=260eDcsUheE
 
 ## 系統自動建立資料夾 (使用者不用建立)
 1. 使用者跟目錄底下建立 test_flask資料夾  專門用來放置程式
+   裡面會產生一個`passenger_wsgi.py`
 2. 使用者跟目錄底下建立 virtualenv資料夾  專門用來放置虛擬環境
 3. public_html底下建立 test_flask資料夾  專門用來放置網web配置(.htaccess)
+
+## `passenger_wsgi.py`
+1. 它由系統自動產生，他是一個生產用的WSGI(有別於開發用)
+2. 它是godaddy使用apache server 與 flask 之間的橋樑，主要工作是轉發請求
+3. 它是一個入口點，用來載入flask應用
+4. 在godaddy部屬flask，不須自行建立wsgi，非常方便
 
 ## 2.檢查
 2.1 檢查 在頁面Application URL 右方 按下open將打開網址http://selecter.org/test_flask，檢查是否正常
