@@ -15,6 +15,8 @@ clear 清除畫面
 cd /home/vqpcm2y2n0qr/practice  切換路徑
 cd ../ 切到上一層
 cd ~ 移動到跟目錄
+cat readme.md  檢視文字檔案
+
 mkdir directory 建立資料夾
 mkdir test_line_notify_rd
 rm -f * 刪除當前路徑底下所有檔案
@@ -33,4 +35,5 @@ ps aux　　列出目前工作
 ## 文字版工作管理員
 top 開啟工作管理員
 q   離開
+
 
