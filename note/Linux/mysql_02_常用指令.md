@@ -9,6 +9,7 @@
 1. DATETIME  日期時間，通常使用CHAR(14) 就很好用了
 2. TIMESTAMP  時間戳記, 另一種的時間表示
 3. BOOLEAN    0 = FALSE 1 = TRUE  BOOL也是同義
+
 ## 建立資料表
 ```
 CREATE TABLE rec_rpn
@@ -19,4 +20,9 @@ rp06 text,
 rp07 int,
 rp08 text,
 rp09 datetime)
+```
+
+## 查詢筆數
+```
+SELECT ts01, ts02 FROM rec_test LIMIT 10
 ```
