@@ -9,6 +9,4 @@ python3 -m pip list
 python3 -m pip install PySimpleGUI
 python3 -m pip install requests
 python3 -m pip install jsons
-python3 -m pip install Flask
-python3 -m pip install waitress
 ```
