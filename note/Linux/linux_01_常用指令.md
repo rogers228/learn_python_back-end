@@ -19,6 +19,7 @@ cat readme.md  檢視文字檔案
 
 mkdir directory 建立資料夾
 mkdir test_line_notify_rd
+rm myfile 刪除檔案
 rm -f * 刪除當前路徑底下所有檔案
 rm -rf mydir 強制刪除資料夾及裡面的內容
 
@@ -37,3 +38,5 @@ top 開啟工作管理員
 q   離開
 
 
+## 修改檔案名稱
+mv oldname.txt newname.txt
