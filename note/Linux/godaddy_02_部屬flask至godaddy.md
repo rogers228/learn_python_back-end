@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=260eDcsUheE
 ## 系統自動建立資料夾 (使用者不用建立)
 1. 使用者跟目錄底下建立 test_flask資料夾  專門用來放置程式
    裡面會產生一個`passenger_wsgi.py`
-2. 使用者跟目錄底下建立 virtualenv資料夾  專門用來放置虛擬環境
+2. 使用者跟目錄底下建立 virtualenv資料夾  專門用來放置虛擬環境(請參閱虛擬環境)
 3. public_html底下建立 test_flask資料夾  專門用來放置網web配置(.htaccess)
 
 ## `passenger_wsgi.py`
