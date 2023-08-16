@@ -22,3 +22,6 @@ https://shubo.io/cookies/
 ## 偵錯
 - 使用無痕視窗
 - 使用控制台查看cookie
+
+## 注意事項
+1. 操作cookie的控制通常是後端，有能是python flask, php, node javascript, 網路上的範例通常是javascript，所以不要誤會是前端控制
