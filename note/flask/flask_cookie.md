@@ -23,20 +23,26 @@ cookie是靠瀏覽器機制傳送與設定，並非完全前端js控制，也非
 2. 後端收到請求，可以讀取cookie，設定cookie，回應給瀏覽器
 3. 瀏覽器收到回應後，瀏覽器會再依條件設定cookie
 
-## 參數
-- name
-- value
+## 參數-值
+- name   key
+- value  value
+
+## 參數-允許後端作用域
+- domain 允許瀏覽器攜帶過去後端的網域，僅限一組
+- path   允許瀏覽器攜帶過去後端的路徑, path='/' 代表全站
+- samesite 前端請求時瀏覽器發送cookie給後端的條件
+-- strict 嚴格的(第一方cookie): request請求的網域 必須和 目前網址的網域 相同 才會發送cookie給後端
+-- lax    鬆懈的: 同上，get方法可第三方
+-- none   無管制(可第三方cookie): 一律發送
+
+## 參數-允許作用時間
 - expires 失效時間 (過期時間之前為有效時，之後為無效)
 - max_age 保存時間 (保存多久後就失效)
 - max_age 和 expires 是對應個 cookie 非個別key，你只需要設定其中一個即可，兩者是互斥的。
-- domain 網域
-- path 路徑    path='/' 代表全站
-- secure secure=True    限制 https
-- httponly httponly=False  僅http 防止JavaScript 存取cookie的特定key
-- samesite 前端請求時瀏覽器發送cookie給後端的條件
--- strict 嚴格的: request請求的網域 必須和 目前網址的網域 相同 才會發送cookie給後端
--- lax    鬆懈的: 同上，除了get導向相同網域(目前尚未使用到)
--- none   無管制: 一律發送
+
+## 參數-保密性
+- secure secure=True        限制使用https加密傳送cookie
+- httponly httponly=False   僅限http傳輸用，防止JavaScript 存取cookie
 
 ## 偵錯
 - 使用無痕視窗
