@@ -13,14 +13,14 @@ config = app.config.get
 def set_cross_origin_opener_policy():
     response = make_response()
     response.headers['Cross-Origin-Opener-Policy'] = 'flask_test_google_login'
-    
+
 @app.route("/")
 def index():
     return send_file(config('FILE_INDEX'))
 
 
 def test1():
-    print(config('S_TEST'))
+    print(config('FILE_INDEX'))
 
 if __name__ == '__main__':
     test1()
