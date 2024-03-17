@@ -3,7 +3,8 @@
 01_test.php
 ```php
 <?php
-    echo 'hello roger.';
+    $name = 'roger'
+    echo 'hello $name.';
 ?>
 ```
 
