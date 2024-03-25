@@ -19,3 +19,7 @@ mongod.exe --install --serviceName "MongoDB_ys" --serviceDisplayName "MongoDB_ys
 ## 開啟服務
 
 開始>控制台>系統及安全性>系統管理工具>服務
+
+或
+
+搜尋 services.msc
