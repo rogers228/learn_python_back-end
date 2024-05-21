@@ -13,11 +13,11 @@ https://www.youtube.com/watch?v=260eDcsUheE
 1.1 進入頁面 登入godaddy主頁 > cPanel > Software > Setup Python App
 1.2 建立python app  按下 CREATE APPLICATION
 1.3 選擇python版本，選擇最新即可
-1.4 Application root 程式跟目錄名稱，輸入test_flask
+1.4 Application root 程式跟目錄名稱，輸入test_flask  或其他路徑 web_api/202406_api
 1.5 Application URL 是網址後方的首個path，輸入test_flask
 1.6 Application startup file 啟動檔案,輸入app.py
 1.7 Application Entry point app進入點，通常是啟動檔案的app變數, 輸入app
-1.8 Passenger log file log檔案為必須，輸入logs/test_flask.log
+1.8 Passenger log file log檔案為必須，輸入logs/test_flask.log 或 logs/product_202406.log
 1.9 輸入完畢後按下 CREATE
 
 ```

@@ -88,10 +88,10 @@ make install  安裝
 ## 4.檢查是否正常
 ```
 openssl version   檢查openssl版本
-python3 --version 檢查python3版本
-python3 -m pip --version  檢查pip版本
-python3 -m pip list 檢查以安裝套件
-python3 -m pip install --upgrade pip 更新
+python3.10 --version 檢查python3版本
+python3.10 -m pip --version  檢查pip版本
+python3.10 -m pip list 檢查以安裝套件
+python3.10 -m pip install --upgrade pip 更新
 ```
 
 
