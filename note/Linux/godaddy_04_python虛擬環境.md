@@ -11,3 +11,11 @@ source virtualenv/python_webapi/3.9/bin/activate 進入
 ...進行其他操作
 deactivate 退出
 ```
+
+## 指定執行環境，使用完整路徑執行
+不使用 activate 進入虛擬環境，
+直接指定執行環境，使用完整路徑執行
+這樣一來就，就不需要切換虛擬環境
+
+/home/vqpcm2y2n0qr/virtualenv/python311/3.11/bin/python /home/vqpcm2y2n0qr/python311/test1.py
+
