@@ -20,8 +20,11 @@ def test1():
     print(type(data))
 
 def test2():
-    # 查詢所有資料表
-    pass
+    db: Client = create_client(url, visitor)
+    response = db.table('rec_test').select('ts02').like('ts01', 'A001').limit(1).execute()
+    if response.data:
+        print(response.data[0])
+        return response.data
 
 if __name__ == '__main__':
     test2()
