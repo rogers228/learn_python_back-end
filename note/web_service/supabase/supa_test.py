@@ -11,7 +11,6 @@ admin = OPTION.get("spwr_api_service_key")
 visitor = OPTION.get("spwr_api_anon_key")
 # print(visitor)
 
-
 def test1():
     db: Client = create_client(url, visitor)
     response = db.table("rec_test").select("*").execute()

@@ -61,7 +61,7 @@ def test1():
         print(response.text)
 
 def test2():
-    # delect 實際無法刪除
+    # delect 實際刪除  需要等待處理時間  非立即刪除
     delete_url = 'https://ibb.co/3yvDw28/cb70569a938b23af56910b09e4ad86e0'
     response = requests.get(delete_url)
 
