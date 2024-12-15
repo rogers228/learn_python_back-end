@@ -26,4 +26,4 @@ def test2():
         return response.data
 
 if __name__ == '__main__':
-    test2()
+    test1()
